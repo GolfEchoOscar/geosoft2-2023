@@ -66,12 +66,11 @@ Für die Kommunikation zwischen den verschiedenen Microservices gibt es zwei Ans
 **_Asynchrone Kommunikation_** <br />
 Bei der Asynchronen Kommunikation werden Nachrichten geschickt, ohne auf eine direkte Antwort (Abhängigkeit) warten zu müssen. Dieses Prinzip kann mit Hilfe eines Messaging-Systems realisiert werden. An dieses System können Nachrichten/Anfragen gesendet werden (ähnlich wie eine Warteschlange), die von anderen Microservices bearbeitet werden. Dadurch ist die Kapselung und die Unabhängigkeit der Microservices untereinander so weit es geht gegeben (SDX - Microservices – Kommunikation). <br />
 ![Asynchrone_Kommunikation](https://github.com/GolfEchoOscar/geosoft2-2023/assets/134288087/7525c887-3ec1-414d-9161-1a31b6f950e2) <br /><br />
-https://www.sdx-ag.de/2016/11/microservices-kommunikation/
 
 **_Synchrone Kommunikation_** <br />
 Bei der Synchronen Kommunikation, wird auf eine direkte Antwort gewartet, wodurch Abhängigkeiten entstehen. Um diese so gering wie möglich zu halten, sollten die Aufrufe nur in einer Richtung verlaufen (SDX - Microservices – Kommunikation). <br />
-![Synchrone Kommunikation](https://cdnp-sdxhomepage-static-prod.azureedge.net/wp-content/uploads/2016/09/microservices5-e1477492451414.jpg) <br />
-https://www.sdx-ag.de/2016/11/microservices-kommunikation/
+![Synchrone_Kommunikation](https://github.com/GolfEchoOscar/geosoft2-2023/assets/134288087/e499e175-2f33-4d90-8389-d24b3b7095c7) <br />
+
 
 Aber was spricht für diese Vorgehensweise? Wann könnte es Sinn machen auf eine monolithische Architektur zu verzichten und sein Programm in Microservices zu unterteilen?
 
