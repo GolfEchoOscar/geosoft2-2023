@@ -65,7 +65,7 @@ Für die Kommunikation zwischen den verschiedenen Microservices gibt es zwei Ans
 
 **_Asynchrone Kommunikation_** <br />
 Bei der Asynchronen Kommunikation werden Nachrichten geschickt, ohne auf eine direkte Antwort (Abhängigkeit) warten zu müssen. Dieses Prinzip kann mit Hilfe eines Messaging-Systems realisiert werden. An dieses System können Nachrichten/Anfragen gesendet werden (ähnlich wie eine Warteschlange), die von anderen Microservices bearbeitet werden. Dadurch ist die Kapselung und die Unabhängigkeit der Microservices untereinander so weit es geht gegeben (SDX - Microservices – Kommunikation). <br />
-![Asynchrone Kommunikation](https://cdnp-sdxhomepage-static-prod.azureedge.net/wp-content/uploads/2016/10/micorservices-3.2.jpg) <br /><br />
+![Asynchrone_Kommunikation](https://github.com/GolfEchoOscar/geosoft2-2023/assets/134288087/7525c887-3ec1-414d-9161-1a31b6f950e2) <br /><br />
 https://www.sdx-ag.de/2016/11/microservices-kommunikation/
 
 **_Synchrone Kommunikation_** <br />
